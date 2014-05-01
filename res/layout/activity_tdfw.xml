@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.tdfw.TDFWActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageButton
+        android:id="@+id/playBtn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/play_btn_cont_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
+
