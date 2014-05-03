@@ -858,10 +858,11 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f070002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f080003;
+        public static final int abc_search_url_text_holo=0x7f080004;
         public static final int abc_search_url_text_normal=0x7f080000;
         public static final int abc_search_url_text_pressed=0x7f080002;
         public static final int abc_search_url_text_selected=0x7f080001;
+        public static final int blue=0x7f080003;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1091,7 +1092,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06003e;
+        public static final int action_settings=0x7f060040;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1101,6 +1102,8 @@ containing a value of this type.
         public static final int default_activity_button=0x7f060028;
         public static final int dialog=0x7f06000e;
         public static final int disableHome=0x7f060008;
+        public static final int disclaimerLbl=0x7f06003f;
+        public static final int disclaimerTxt=0x7f06003e;
         public static final int dropdown=0x7f06000f;
         public static final int edit_query=0x7f060030;
         public static final int end=0x7f060013;
@@ -1246,6 +1249,8 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static final int action_settings=0x7f0b000f;
         public static final int app_name=0x7f0b000d;
+        public static final int disclaimer_lbl_txt=0x7f0b0011;
+        public static final int disclaimer_txt=0x7f0b0012;
         public static final int hello_world=0x7f0b000e;
         public static final int play_btn_cont_desc=0x7f0b0010;
     }

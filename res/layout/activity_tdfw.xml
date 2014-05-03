@@ -3,6 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue"
     tools:context="app.tdfw.TDFWActivity"
     tools:ignore="MergeRootFrame" >
 
@@ -15,6 +16,26 @@
         android:contentDescription="@string/play_btn_cont_desc"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/disclaimerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/disclaimer_txt"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/disclaimerLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/disclaimerTxt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/disclaimer_lbl_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
 

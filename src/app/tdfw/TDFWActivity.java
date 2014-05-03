@@ -1,6 +1,7 @@
 package app.tdfw;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -11,8 +12,16 @@ import android.os.PowerManager;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageButton;
 
+/**
+ * Purpose: Plays a six second clip of "Turn Down for What" by DJ Snake and Lil Jon
+ * when the user pushes the button.
+ * 
+ * @author Perron
+ *
+ */
 public class TDFWActivity extends Activity {
 
 	private ImageButton playImageBtn;
@@ -22,9 +31,12 @@ public class TDFWActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+
 		setContentView(R.layout.activity_tdfw);
-		System.out.println(getApplicationContext().toString());
 		playImageBtn = (ImageButton) findViewById(R.id.playBtn);
+		playImageBtn.setBackgroundColor(Color.TRANSPARENT);
 
 		// Set the button
 		playImageBtn.setOnClickListener(new OnClickListener() {
@@ -56,6 +68,12 @@ public class TDFWActivity extends Activity {
 		finish();
 	}
 
+	/**
+	 * Purpose: Plays the sound file when the image button is pushed.
+	 * 
+	 * @author Perron
+	 * 
+	 */
 	private void play() {
 		// Create the media playing with the desired sound file
 		
@@ -70,6 +88,8 @@ public class TDFWActivity extends Activity {
 				 */
 				//return;
 			}
+			
+			// reset the media player. Resets the MediaPlayer to its uninitialized state.
 			mPlayer.reset();
 		}
 		
@@ -80,7 +100,7 @@ public class TDFWActivity extends Activity {
 			@Override
 			public void onPrepared(MediaPlayer mp) {
 				// Start playing the sound when the media player is prepared.
-				System.out.println("Media player is prepared");
+				Log.i("TDFW sound", "Media player is prepared");
 				mPlayer.start();
 
 			}
@@ -98,7 +118,7 @@ public class TDFWActivity extends Activity {
 
 			@Override
 			public boolean onError(MediaPlayer mp, int what, int extra) {
-				// Must reset the music player when an error occurs.
+				// Must reset the music player when an error occurs. Resets the MediaPlayer to its uninitialized state.
 				mPlayer.reset();
 				return false;
 			}
