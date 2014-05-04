@@ -120,11 +120,13 @@ int bool abc_config_actionMenuItemAllCaps 0x7f070005
 int bool abc_config_allowActionMenuItemTextWithIcon 0x7f070004
 int bool abc_config_showMenuShortcutsWhenKeyboardPresent 0x7f070003
 int bool abc_split_action_bar_is_narrow 0x7f070002
-int color abc_search_url_text_holo 0x7f080004
+int color abc_search_url_text_holo 0x7f080006
 int color abc_search_url_text_normal 0x7f080000
 int color abc_search_url_text_pressed 0x7f080002
 int color abc_search_url_text_selected 0x7f080001
 int color blue 0x7f080003
+int color white 0x7f080005
+int color yellow 0x7f080004
 int dimen abc_action_bar_default_height 0x7f090002
 int dimen abc_action_bar_icon_vertical_padding 0x7f090003
 int dimen abc_action_bar_progress_bar_size 0x7f09000a
@@ -237,7 +239,9 @@ int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ic_launcher 0x7f020057
 int drawable tdfw_btn 0x7f020058
-int drawable tdfw_btn_pressed 0x7f020059
+int drawable tdfw_btn_2 0x7f020059
+int drawable tdfw_btn_pressed 0x7f02005a
+int drawable tdfw_btn_pressed_2 0x7f02005b
 int id action_bar 0x7f06001c
 int id action_bar_activity_content 0x7f060015
 int id action_bar_container 0x7f06001b
@@ -249,7 +253,7 @@ int id action_context_bar 0x7f06001d
 int id action_menu_divider 0x7f060016
 int id action_menu_presenter 0x7f060017
 int id action_mode_close_button 0x7f060024
-int id action_settings 0x7f060040
+int id action_settings 0x7f060041
 int id activity_chooser_view_content 0x7f060025
 int id always 0x7f06000b
 int id beginning 0x7f060011
@@ -278,6 +282,7 @@ int id never 0x7f060009
 int id none 0x7f060010
 int id normal 0x7f060000
 int id playBtn 0x7f06003d
+int id playBtnLbl 0x7f060040
 int id progress_circular 0x7f060018
 int id progress_horizontal 0x7f060019
 int id radio 0x7f06002f
@@ -347,10 +352,11 @@ int string abc_shareactionprovider_share_with 0x7f0b000c
 int string abc_shareactionprovider_share_with_application 0x7f0b000b
 int string action_settings 0x7f0b000f
 int string app_name 0x7f0b000d
-int string disclaimer_lbl_txt 0x7f0b0011
-int string disclaimer_txt 0x7f0b0012
+int string disclaimer_lbl_txt 0x7f0b0012
+int string disclaimer_txt 0x7f0b0013
 int string hello_world 0x7f0b000e
 int string play_btn_cont_desc 0x7f0b0010
+int string play_btn_lbl_txt 0x7f0b0011
 int style AppBaseTheme 0x7f0c008b
 int style AppTheme 0x7f0c008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0c0063

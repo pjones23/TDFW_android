@@ -858,11 +858,13 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f070002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f080004;
+        public static final int abc_search_url_text_holo=0x7f080006;
         public static final int abc_search_url_text_normal=0x7f080000;
         public static final int abc_search_url_text_pressed=0x7f080002;
         public static final int abc_search_url_text_selected=0x7f080001;
         public static final int blue=0x7f080003;
+        public static final int white=0x7f080005;
+        public static final int yellow=0x7f080004;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1080,7 +1082,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
         public static final int tdfw_btn=0x7f020058;
-        public static final int tdfw_btn_pressed=0x7f020059;
+        public static final int tdfw_btn_2=0x7f020059;
+        public static final int tdfw_btn_pressed=0x7f02005a;
+        public static final int tdfw_btn_pressed_2=0x7f02005b;
     }
     public static final class id {
         public static final int action_bar=0x7f06001c;
@@ -1094,7 +1098,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f060040;
+        public static final int action_settings=0x7f060041;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1123,6 +1127,7 @@ containing a value of this type.
         public static final int none=0x7f060010;
         public static final int normal=0x7f060000;
         public static final int playBtn=0x7f06003d;
+        public static final int playBtnLbl=0x7f060040;
         public static final int progress_circular=0x7f060018;
         public static final int progress_horizontal=0x7f060019;
         public static final int radio=0x7f06002f;
@@ -1251,10 +1256,11 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static final int action_settings=0x7f0b000f;
         public static final int app_name=0x7f0b000d;
-        public static final int disclaimer_lbl_txt=0x7f0b0011;
-        public static final int disclaimer_txt=0x7f0b0012;
+        public static final int disclaimer_lbl_txt=0x7f0b0012;
+        public static final int disclaimer_txt=0x7f0b0013;
         public static final int hello_world=0x7f0b000e;
         public static final int play_btn_cont_desc=0x7f0b0010;
+        public static final int play_btn_lbl_txt=0x7f0b0011;
     }
     public static final class style {
         /** 

@@ -26,6 +26,7 @@
         android:gravity="center"
         android:text="@string/disclaimer_txt"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
         android:textSize="12sp" />
 
     <TextView
@@ -35,7 +36,19 @@
         android:layout_above="@+id/disclaimerTxt"
         android:layout_centerHorizontal="true"
         android:text="@string/disclaimer_lbl_txt"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/playBtnLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playBtn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/play_btn_lbl_txt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/yellow"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
 

@@ -5,9 +5,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="play_btn_cont_desc">button to play sound file</string>
+    <string name="play_btn_lbl_txt">TDFW Button!</string>
     <string name="disclaimer_lbl_txt">Disclaimer</string>
     <string name="disclaimer_txt">For entertainment purposes only.\nNo affiliation with related entities to this song with this app.</string>
     
     <color name="blue">#3B3BFF</color>
+    <color name="yellow">#FFFF5D</color>
+    <color name="white">#FFFFFF</color>
     
 </resources>
